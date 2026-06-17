@@ -1,0 +1,140 @@
+name: Bug Report
+description: Report a problem with МНЕНРАФОТО Alpha
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Application version, e.g. 0.1.0-alpha.1
+      placeholder: 0.1.0-alpha.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11 x64
+        - Windows 10 x64
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: build
+    attributes:
+      label: Windows build (optional)
+      description: Output of winver or Settings → System → About
+      placeholder: e.g. 26100
+
+  - type: input
+    id: printer
+    attributes:
+      label: Printer model
+      placeholder: e.g. Epson L805
+    validations:
+      required: true
+
+  - type: input
+    id: driver
+    attributes:
+      label: Driver version (optional)
+      placeholder: e.g. from Windows printer properties
+
+  - type: input
+    id: paper
+    attributes:
+      label: Paper / media type
+      placeholder: e.g. 10×15 Premium Glossy
+
+  - type: dropdown
+    id: layout
+    attributes:
+      label: Layout
+      options:
+        - "1"
+        - "2"
+        - "4"
+        - N/A
+    validations:
+      required: true
+
+  - type: dropdown
+    id: borderless
+    attributes:
+      label: Borderless
+      options:
+        - "Yes"
+        - "No"
+        - N/A
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Image format
+      options:
+        - JPG/JPEG
+        - PNG
+        - WebP
+        - HEIC/HEIF
+        - Mixed
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+
+  - type: textarea
+    id: preview
+    attributes:
+      label: Preview screenshot (optional)
+      description: Describe or attach preview screenshot if relevant
+
+  - type: textarea
+    id: print_photo
+    attributes:
+      label: Printed photo (optional)
+      description: Describe or attach photo of printed result if relevant
+
+  - type: textarea
+    id: technical
+    attributes:
+      label: Technical details (optional)
+      description: Console errors, log excerpts, diagnostic info
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I confirm that I did not attach other people's personal photos in this report
+          required: true

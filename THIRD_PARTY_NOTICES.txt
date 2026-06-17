@@ -1,0 +1,108 @@
+МНЕНРАФОТО 0.1.0-alpha.1 — Third Party Notices
+Copyright © 2026 Суслов Антон Евгеньевич. Все права защищены.
+
+This file summarizes open-source and third-party components included in or
+used to build the МНЕНРАФОТО Windows distribution. Full license texts are
+provided in the corresponding LICENSE files in node_modules (development),
+in this distribution's legal/ folder, and in LICENSES.chromium.html (Electron).
+
+================================================================================
+APPLICATION RUNTIME (JavaScript / Electron UI)
+================================================================================
+
+Electron 32.3.3
+  License: MIT
+  Copyright: Electron contributors; GitHub, Inc.
+  Notice: Bundled Chromium components are listed in LICENSES.chromium.html
+          shipped alongside the application executable.
+
+React 18.3.1
+  License: MIT
+  Copyright: Meta Platforms, Inc. and affiliates
+
+React DOM 18.3.1
+  License: MIT
+  Copyright: Meta Platforms, Inc. and affiliates
+
+Scheduler 0.23.2
+  License: MIT
+  Copyright: Meta Platforms, Inc. and affiliates
+
+Zustand 4.5.7
+  License: MIT
+  Copyright: Paul Henschel
+
+use-sync-external-store 1.6.0
+  License: MIT
+  Copyright: Meta Platforms, Inc. and affiliates
+
+loose-envify 1.4.0
+  License: MIT
+  Copyright: Andres Suarez
+
+js-tokens 4.0.0
+  License: MIT
+  Copyright: Andres Suarez, Contrast Labs LLC
+
+lucide-react 0.441.0
+  License: ISC
+  Copyright: Cole Bemis / Feather (MIT portions); Lucide Contributors
+
+================================================================================
+HEIC DECODER HELPER (MnenraHeicDecoder.exe)
+================================================================================
+
+MnenraHeicDecoder (proprietary wrapper, © 2026 Суслов Антон Евгеньевич)
+  Uses Windows.Graphics.Imaging / Windows Imaging Component via WinRT.
+  HEIF/HEVC decoding is performed by optional Microsoft Store extensions
+  installed on the user's PC — not redistributed inside the helper.
+
+Microsoft .NET Runtime 8.0.22 (self-contained in MnenraHeicDecoder.exe)
+  License: MIT
+  Copyright: .NET Foundation and Contributors
+  Full license: legal/dotnet/LICENSE.TXT
+  Third-party notices: legal/dotnet/THIRD-PARTY-NOTICES.TXT
+
+Microsoft.Windows.SDK.NET.Ref 10.0.17763.57 (build-time targeting pack)
+  License: Microsoft Windows SDK license
+  License URL: https://aka.ms/WinSDKLicenseURL
+  Copyright: © Microsoft Corporation. All rights reserved.
+  Used at build time for WinRT API access; not shipped as a separate package.
+
+================================================================================
+REMOVED COMPONENTS (NOT IN THIS DISTRIBUTION)
+================================================================================
+
+heic2any, libheif, libde265 — removed from production build 0.1.0-alpha.1.
+
+================================================================================
+CHROMIUM / FFMPEG / OTHER RUNTIME BINARIES
+================================================================================
+
+The Electron runtime includes additional components (including Chromium and
+ffmpeg.dll) subject to multiple open-source licenses. See the complete list in:
+
+  LICENSES.chromium.html
+
+This file is included in the installed application directory (win-unpacked root)
+and must be preserved in all redistributions of the Electron runtime portion.
+
+================================================================================
+SOURCE OF LICENSE TEXTS
+================================================================================
+
+Development copies:
+  node_modules/<package>/LICENSE*
+  node_modules/electron/LICENSE
+  node_modules/electron/dist/LICENSES.chromium.html
+
+Distribution copies (this release):
+  legal/LICENSE.txt          — proprietary Alpha license (МНЕНРАФОТО)
+  legal/PRIVACY.md           — privacy policy
+  legal/dotnet/LICENSE.TXT   — .NET Runtime MIT license
+  legal/dotnet/THIRD-PARTY-NOTICES.TXT — .NET runtime third-party notices
+  LICENSES.chromium.html     — Electron/Chromium notices (next to MnenraFoto.exe)
+
+Trademark notice:
+  Epson and printer model names are trademarks of their respective owners.
+  МНЕНРАФОТО is an independent product and is not affiliated with Epson.
