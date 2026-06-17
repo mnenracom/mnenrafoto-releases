@@ -2,7 +2,9 @@
 
 **Free Windows app for batch photo preparation and printing.**
 
-**[Download latest release](https://github.com/mnenracom/mnenrafoto-releases/releases/tag/v0.1.0-alpha.1)** · [Website (RU)](https://mnenrafoto.ru/program) · [Website (EN)](https://mnenrafoto.ru/en/program) · [Boosty](https://boosty.to/mnenra)
+**[SETUP](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.1.0-alpha.1/MnenraFoto-0.1.0-alpha.1-win-x64-setup.exe)** 
+**[PORTABLE](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.1.0-alpha.1/MnenraFoto-0.1.0-alpha.1-win-x64-portable.exe)** 
+· [Website (RU)](https://mnenrafoto.ru/program) · [Website (EN)](https://mnenrafoto.ru/en/program) · [Boosty](https://boosty.to/mnenra)
 
 **Current interface:** Russian  
 **English application UI** is planned for Alpha 2.
@@ -93,7 +95,9 @@ Support does **not** guarantee that a specific printer or feature will be added.
 
 **Бесплатная программа для пакетной подготовки и печати фотографий на Windows.**
 
-**[Скачать последний релиз](https://github.com/mnenracom/mnenrafoto-releases/releases/tag/v0.1.0-alpha.1)** · [Сайт (RU)](https://mnenrafoto.ru/program) · [Сайт (EN)](https://mnenrafoto.ru/en/program) · [Boosty](https://boosty.to/mnenra)
+**[УСТАНОВЩИК](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.1.0-alpha.1/MnenraFoto-0.1.0-alpha.1-win-x64-setup.exe)** 
+**[ПОРТАТИВКА](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.1.0-alpha.1/MnenraFoto-0.1.0-alpha.1-win-x64-portable.exe)** 
+· [Сайт (RU)](https://mnenrafoto.ru/program) · [Сайт (EN)](https://mnenrafoto.ru/en/program) · [Boosty](https://boosty.to/mnenra)
 
 **Текущий интерфейс:** русский  
 **Английский интерфейс приложения** планируется в Alpha 2.
