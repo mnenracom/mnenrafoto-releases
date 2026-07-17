@@ -15,9 +15,13 @@
 
 [Сайт RU](https://mnenrafoto.ru/program) · [Website EN](https://mnenrafoto.ru/en/program) · [Boosty](https://boosty.to/mnenra) · [Сообщить об ошибке](https://github.com/mnenracom/mnenrafoto-releases/issues/new/choose)
 
+![Интерфейс МНЕНРАФОТО 0.2 Alpha 2](assets/alpha2-photo-print.png)
+
 ## Скриншоты Alpha 2
 
-Безопасные публичные скриншоты Alpha 2 будут добавлены после отдельной съёмки без пользовательских фотографий, локальных путей и личных данных. Старый скриншот Alpha 1 сохранён в истории репозитория и не используется как изображение текущей версии.
+| Фотопечать | Фото на документы |
+| --- | --- |
+| ![Новый интерфейс фотопечати МНЕНРАФОТО 0.2 Alpha 2](assets/alpha2-photo-print.png) | ![Режим фото на документы МНЕНРАФОТО 0.2 Alpha 2](assets/alpha2-document-photo.png) |
 
 ## Что это
 

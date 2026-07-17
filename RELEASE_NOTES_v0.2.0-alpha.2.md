@@ -8,6 +8,18 @@
 [![Portable](https://img.shields.io/badge/Portable-Без_установки-2F855A?style=for-the-badge)](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.2.0-alpha.2/MnenraFoto-0.2.0-alpha.2-win-x64-portable.exe)
 [![SHA-256](https://img.shields.io/badge/SHA--256-Проверить-805AD5?style=for-the-badge)](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.2.0-alpha.2/SHA256SUMS.txt)
 
+![Интерфейс МНЕНРАФОТО 0.2 Alpha 2](https://raw.githubusercontent.com/mnenracom/mnenrafoto-releases/main/assets/alpha2-photo-print.png)
+
+## Интерфейс Alpha 2
+
+### Фотопечать
+
+![Новый интерфейс фотопечати МНЕНРАФОТО 0.2 Alpha 2](https://raw.githubusercontent.com/mnenracom/mnenrafoto-releases/main/assets/alpha2-photo-print.png)
+
+### Фото на документы
+
+![Режим фото на документы МНЕНРАФОТО 0.2 Alpha 2](https://raw.githubusercontent.com/mnenracom/mnenrafoto-releases/main/assets/alpha2-document-photo.png)
+
 ## Основные изменения
 
 - отдельный режим «Фото на документы»;
