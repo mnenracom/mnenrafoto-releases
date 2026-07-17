@@ -1,204 +1,184 @@
-# МНЕНРАФОТО / MNENRAFOTO
+# МНЕНРАФОТО
 
-Бесплатная Windows-программа для пакетной подготовки, обработки и печати фотографий.
+Бесплатная Windows-программа для быстрой подготовки и печати фотографий.
 
-> Текущая версия: **0.1.0 Alpha 1**
-> Статус: **публичное тестирование / Pre-release**
-> Платформа: **Windows 10/11, 64-bit**
+> **Текущая версия:** 0.2.0 Alpha 2<br>
+> **Статус:** публичное тестирование<br>
+> **Платформа:** Windows 10/11, 64-bit
 
-[![Скачать Setup](https://img.shields.io/badge/Скачать_Setup-Рекомендуется-0B5FFF?style=for-the-badge&logo=windows)](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.1.0-alpha.1/MnenraFoto-0.1.0-alpha.1-win-x64-setup.exe)
-[![Portable](https://img.shields.io/badge/Portable-Без_установки-2F855A?style=for-the-badge)](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.1.0-alpha.1/MnenraFoto-0.1.0-alpha.1-win-x64-portable.exe)
-[![Страница релиза](https://img.shields.io/badge/Страница_релиза-v0.1.0--alpha.1-4A5568?style=for-the-badge&logo=github)](https://github.com/mnenracom/mnenrafoto-releases/releases/tag/v0.1.0-alpha.1)
-[![SHA-256](https://img.shields.io/badge/SHA--256-Проверить-805AD5?style=for-the-badge)](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.1.0-alpha.1/SHA256SUMS.txt)
+[English version](README_EN.md)
+
+[![Скачать Setup](https://img.shields.io/badge/Скачать_Setup-Рекомендуется-0B5FFF?style=for-the-badge&logo=windows)](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.2.0-alpha.2/MnenraFoto-0.2.0-alpha.2-win-x64-setup.exe)
+[![Portable](https://img.shields.io/badge/Portable-Без_установки-2F855A?style=for-the-badge)](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.2.0-alpha.2/MnenraFoto-0.2.0-alpha.2-win-x64-portable.exe)
+[![Страница релиза](https://img.shields.io/badge/Страница_релиза-v0.2.0--alpha.2-4A5568?style=for-the-badge&logo=github)](https://github.com/mnenracom/mnenrafoto-releases/releases/tag/v0.2.0-alpha.2)
+[![SHA-256](https://img.shields.io/badge/SHA--256-Проверить-805AD5?style=for-the-badge)](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.2.0-alpha.2/SHA256SUMS.txt)
 
 [Сайт RU](https://mnenrafoto.ru/program) · [Website EN](https://mnenrafoto.ru/en/program) · [Boosty](https://boosty.to/mnenra) · [Сообщить об ошибке](https://github.com/mnenracom/mnenrafoto-releases/issues/new/choose)
 
-![Интерфейс МНЕНРАФОТО 0.1 Alpha 1](assets/mnenrafoto-alpha-1-current.png)
+## Скриншоты Alpha 2
 
-[English](#english) · [Русский](#русский)
+Безопасные публичные скриншоты Alpha 2 будут добавлены после отдельной съёмки без пользовательских фотографий, локальных путей и личных данных. Старый скриншот Alpha 1 сохранён в истории репозитория и не используется как изображение текущей версии.
 
----
+## Что это
 
-## English
+МНЕНРАФОТО — локальная Windows-программа для быстрого импорта, подготовки, обработки и печати фотографий.
 
-**Free Windows app for batch photo preparation and printing.**
+Главный практический смысл:
 
-**Current interface:** Russian
+- быстро загрузить большое количество фотографий;
+- подготовить их к печати;
+- применить настройки ко всему заказу;
+- сохранить пресеты;
+- переключаться между текущим и предыдущим заказом;
+- печатать обычные фотографии и фото на документы;
+- не загружать изображения в облако.
 
-**English application UI** is planned for Alpha 2.
+## Новое в Alpha 2
 
-## About
+### Фото на документы
 
-MNENRAFOTO helps you import, adjust, and print photos on Windows. All image processing runs locally on your computer — photos are not uploaded to the internet.
+- отдельный режим «Фото на документы»;
+- форматы 3×4, 3,5×4,5 и 4×6;
+- смешанные листы;
+- уголки и линии реза;
+- пользовательские форматы;
+- позиционирование лица;
+- настройка отдельных копий;
+- цветные и чёрно-белые фотографии на одном листе;
+- сохранение для Госуслуг;
+- сохранение готового листа JPEG;
+- тираж одинаковых листов;
+- оценка эффективного разрешения.
 
-### Main features
+### Рабочий процесс
 
-- import files and folders;
-- JPG / JPEG / PNG / WebP / HEIC / HEIF;
-- batch processing;
-- per-photo corrections;
-- brightness, contrast, saturation, white balance, tint;
-- crop, zoom, pan;
-- rotate, straighten, flip;
-- layouts 1 / 2 / 4;
-- custom presets;
-- apply settings to all photos;
-- Undo / Redo;
-- current and previous order memory;
-- print from selected photo or sheet;
-- local processing without cloud upload.
+- счётчик активной фотографии `N из M`;
+- кнопка «Новый заказ»;
+- сохранение текущего заказа в «Предыдущий» без перезапуска;
+- сохранение пользовательских пресетов;
+- обновлённый компактный баланс белого;
+- Undo/Redo.
 
-### System requirements
+### Печать и бумага
 
-- Windows 10/11 x64;
-- Windows 10 — final physical verification still pending;
-- installed printer driver;
-- PowerShell 5.1;
-- HEIC may require Windows HEIF/HEVC system extensions;
-- minimum 4 GB RAM.
+- новые метрические и международные форматы;
+- отдельные физические форматы 15×20 и 15×21;
+- улучшенное определение форматов драйвера;
+- physical-first paper matching;
+- улучшения PrintTicket;
+- исправления Epson L805, L1210 и L1250;
+- честный прогресс подготовки и передачи задания в очередь Windows.
 
-### Physically tested by the developer
+Результат физической печати зависит от конкретного принтера, драйвера, бумаги и настроек Windows.
 
-- **Epson L805** — 10×15 and A4, layouts 1/2/4;
-- **Epson L1250** — 10×15, layouts 1/2/4.
-
-Other Epson models and third-party printers are not claimed as fully supported in this Alpha.
-
-### Installation
-
-1. Download the official Setup EXE from [Releases](https://github.com/mnenracom/mnenrafoto-releases/releases/tag/v0.1.0-alpha.1).
-2. Run `MnenraFoto-0.1.0-alpha.1-win-x64-setup.exe`.
-3. If SmartScreen warns about an unsigned Alpha build, choose **More info → Run anyway**.
-4. Use only official release files. Do not use repacked or modified installers.
-
-### Portable
-
-- Portable EXE does not require Setup installation.
-- User settings (presets, order memory, onboarding, etc.) are still stored in Windows userData.
-- Setup and Portable share local settings on the same PC.
-
-### HEIC
-
-- HEIC/HEIF is decoded **locally** on your computer.
-- Uses the **Windows system decoder** (HEIF Image Extensions and typically HEVC Video Extensions).
-- If extensions are missing, the app shows a clear message with guidance.
-- Photos are **not sent** to a server or cloud for conversion.
-
-### Alpha limitations
-
-- Test version 0.1.0-alpha.1 — errors are possible.
-- Try a test print of one sheet before bulk printing.
-- Installer is not code-signed.
-- Limited number of physically tested printer models.
-
-### Trademarks
-
-Epson and printer model names are trademarks of their respective owners. MNENRAFOTO is an independent product and is not affiliated with Epson.
-
-### Bug reports
-
-Use [GitHub Issues](https://github.com/mnenracom/mnenrafoto-releases/issues/new/choose) in this repository. Do not attach other people's personal photos.
-
-### Support development / Поддержать разработку
-
-The app remains **free**. Optional support on [Boosty](https://boosty.to/mnenra) helps test additional printer models and fund compatibility work, new formats, and development.
-
-Support does **not** guarantee that a specific printer or feature will be added.
-
----
-
-## Русский
-
-**Бесплатная программа для пакетной подготовки и печати фотографий на Windows.**
-
-**Текущий интерфейс:** русский
-
-**Английский интерфейс приложения** планируется в Alpha 2.
-
----
-
-## О программе
-
-МНЕНРАФОТО помогает импортировать, обрабатывать и печатать фотографии на Windows. Вся обработка выполняется локально — фотографии не загружаются в интернет.
-
-### Основные возможности
+## Что умеет Alpha 2
 
 - импорт файлов и папок;
-- JPG / JPEG / PNG / WebP / HEIC / HEIF;
+- JPG/JPEG/PNG/WebP/HEIC/HEIF;
 - пакетная обработка;
-- коррекция отдельных фотографий;
-- яркость, контраст, насыщенность, баланс белого, оттенок;
-- кадрирование, масштабирование и панорамирование;
-- поворот, выравнивание и отражение;
-- раскладки 1 / 2 / 4;
+- обработка отдельных фотографий;
+- яркость, контраст, насыщенность и баланс белого;
+- crop, zoom, pan;
+- поворот, отражение и выравнивание;
+- раскладки фотографий;
 - пользовательские пресеты;
-- применение настроек ко всем фотографиям;
-- Undo / Redo;
-- память текущего и предыдущего заказа;
-- печать с выбранной фотографии или листа;
-- локальная обработка без загрузки в облако.
+- применение настроек ко всему заказу;
+- текущий и предыдущий заказ;
+- новый заказ без перезапуска;
+- фотопечать;
+- фото на документы;
+- экспорт JPEG;
+- экспорт для Госуслуг;
+- RU/EN интерфейс.
 
-### Системные требования
+## Как начать
 
-- Windows 10/11 x64;
-- Windows 10 — финальная физическая проверка ещё не завершена;
+1. Скачайте **Setup**.
+2. Установите программу.
+3. Выберите принтер и формат бумаги.
+4. Загрузите фотографии.
+5. При необходимости скорректируйте цвет и кадрирование.
+6. Выберите раскладку.
+7. Сделайте тестовую печать одного листа.
+8. После проверки печатайте весь заказ.
+
+Для фото на документы откройте режим «Документы» и выберите нужный формат.
+
+## Что скачать
+
+| Вариант | Для кого |
+| --- | --- |
+| [Setup](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.2.0-alpha.2/MnenraFoto-0.2.0-alpha.2-win-x64-setup.exe) | Рекомендуется большинству пользователей |
+| [Portable](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.2.0-alpha.2/MnenraFoto-0.2.0-alpha.2-win-x64-portable.exe) | Запуск без установки |
+| [SHA256SUMS.txt](https://github.com/mnenracom/mnenrafoto-releases/releases/download/v0.2.0-alpha.2/SHA256SUMS.txt) | Проверка целостности файлов |
+| [Страница релиза](https://github.com/mnenracom/mnenrafoto-releases/releases/tag/v0.2.0-alpha.2) | Полное описание Alpha 2 и все файлы |
+
+## Системные требования
+
+- Windows 10/11;
+- 64-bit;
 - установленный драйвер принтера;
-- PowerShell 5.1;
-- для HEIC могут потребоваться системные расширения HEIF/HEVC Windows;
-- минимум 4 GB RAM.
+- минимум 4 GB RAM;
+- для HEIC могут понадобиться системные HEIF/HEVC extensions Windows.
 
-### Физически проверено разработчиком
+## Конфиденциальность
 
-- **Epson L805** — 10×15 и A4, раскладки 1/2/4;
-- **Epson L1250** — 10×15, раскладки 1/2/4.
+- обработка фотографий выполняется локально;
+- фотографии не загружаются на сервер;
+- пользовательские пресеты и память заказов хранятся на компьютере;
+- программа не отправляет фотографии разработчику;
+- при обращении в Issues не следует прикладывать чужие личные фотографии.
 
-Другие модели Epson и сторонние принтеры в этой Alpha не заявляются как полностью поддерживаемые.
+## Важные ограничения Alpha 2
 
-### Установка
+- это тестовая Alpha;
+- возможны ошибки;
+- installer не подписан цифровой подписью;
+- SmartScreen может показать предупреждение;
+- результат печати зависит от драйвера;
+- рекомендуется сначала напечатать один тестовый лист;
+- не все модели принтеров физически проверены;
+- часть новых форматов может требовать ручной проверки;
+- профиль Госуслуг предварительный, актуальные требования услуги нужно проверять;
+- редактор позиционирования лица будет улучшаться.
 
-1. Скачайте официальный Setup EXE из [Releases](https://github.com/mnenracom/mnenrafoto-releases/releases/tag/v0.1.0-alpha.1).
-2. Запустите `MnenraFoto-0.1.0-alpha.1-win-x64-setup.exe`.
-3. При предупреждении SmartScreen для неподписанной Alpha выберите **Подробнее → Выполнить в любом случае**.
-4. Используйте только официальные файлы релиза.
+## Проверка загрузки
 
-### Portable
+Скачайте `SHA256SUMS.txt` со страницы релиза и сравните SHA-256 скачанных файлов:
 
-- Portable EXE не требует установки через Setup.
-- Пользовательские настройки сохраняются в Windows userData.
-- Setup и Portable используют общие локальные настройки на одном компьютере.
+```powershell
+Get-FileHash .\MnenraFoto-0.2.0-alpha.2-win-x64-setup.exe -Algorithm SHA256
+Get-FileHash .\MnenraFoto-0.2.0-alpha.2-win-x64-portable.exe -Algorithm SHA256
+```
 
-### HEIC
+Для Alpha 2 опубликованы значения:
 
-- HEIC/HEIF декодируется **локально** на компьютере пользователя.
-- Используется **системный декодер Windows**.
-- При отсутствии расширений программа покажет понятное сообщение.
-- Фотографии **не отправляются** на сервер.
+```text
+cc4744912ed2f8be921156fea6504661fd1ebafec88323285be52172ec7b0d95  MnenraFoto-0.2.0-alpha.2-win-x64-setup.exe
+2b03e5c3e96d753f2a02a59aa6c3c7af48bbe467bafc42b20e194b740f74ac0e  MnenraFoto-0.2.0-alpha.2-win-x64-portable.exe
+```
 
-### Ограничения Alpha
+## Обратная связь
 
-- Тестовая версия 0.1.0-alpha.1 — возможны ошибки.
-- Перед массовой печатью рекомендуется пробная печать одного листа.
-- Установщик не подписан цифровым сертификатом.
-- Ограниченное число физически проверенных принтеров.
+Ошибки и предложения можно отправлять через [GitHub Issues](https://github.com/mnenracom/mnenrafoto-releases/issues). При сообщении о проблеме с печатью укажите:
 
-### Товарные знаки
+- модель принтера;
+- версию Windows;
+- формат бумаги;
+- тип драйвера;
+- что ожидалось;
+- что произошло.
 
-Epson и названия моделей принтеров являются товарными знаками их правообладателей. МНЕНРАФОТО является независимым программным продуктом и не аффилировано с Epson.
+Не прикладывайте чужие личные фотографии.
 
-### Обратная связь
+## О репозитории
 
-Используйте [GitHub Issues](https://github.com/mnenracom/mnenrafoto-releases/issues/new/choose). Не прикладывайте чужие персональные фотографии.
+Этот публичный репозиторий содержит страницу программы, release notes и официальные файлы загрузки. Исходный код приложения здесь не публикуется.
 
-### Support development / Поддержать разработку
+## Документы
 
-Программа остаётся **бесплатной**. Добровольная поддержка на [Boosty](https://boosty.to/mnenra) помогает тестировать дополнительные модели принтеров и развивать совместимость, форматы и функциональность.
-
-Поддержка **не гарантирует** добавление конкретного принтера или функции.
-
----
-
-## Documents / Документы
-
+- [English version](README_EN.md)
+- [Release notes Alpha 2](RELEASE_NOTES_v0.2.0-alpha.2.md)
 - [CHANGELOG.md](CHANGELOG.md)
 - [KNOWN_ISSUES.md](KNOWN_ISSUES.md)
 - [PRIVACY.md](PRIVACY.md)
